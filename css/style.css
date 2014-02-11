@@ -1,3 +1,8 @@
+  * {
+    margin: 0;
+    padding: 0;
+  }
+
     html {
       height: 100%;
     }
@@ -163,7 +168,8 @@
       text-align: center;
     }*/
     .main section.page2 {
-    background: #63B8C9 url(../images/page2-back.png) no-repeat center -150px ;
+    /*background: #63B8C9 url(../images/page2-back.png) no-repeat center -150px ;*/
+      background-color: #fff;
     -webkit-transition: background-color 500ms ease-out 1s;
     -moz-transition: background-color 500ms ease-out 1s;
     -o-transition: background-color 500ms ease-out 1s;
@@ -172,7 +178,7 @@
     }
 
     .main section.page2:hover {
-    	background-color: rgba(46, 122, 209, 0.48);
+    	background-color: #E6D9C8;
 	}
 
     .main section.page2 > img {
@@ -196,11 +202,13 @@
     }
 
     .main section.page2 h2 {
-      color: rgba(0, 0, 0, 0.85);
-      text-align: left;
-      line-height: 2;
-      font-weight: 100;
-      text-shadow: 0px 0px 3px #000;
+          padding-left: 22px;
+          background: #4A0557;
+          color: rgba(255, 255, 255, 0.85);
+          text-align: left;
+          line-height: 2;
+          font-weight: 100;
+          text-shadow: 0px 0px 3px #000;
     }
 
     .viewing-page-2 .back{
@@ -263,11 +271,17 @@
 	}
 
 	.page2h2 {
+            padding: 0;
 		list-style: none;
-		position: absolute;
+/*		position: absolute;
 		z-index: 9;
-		bottom: 0px;
+		bottom: 0px;*/
 	}
+
+        .page2h2 li {
+              display: inline-block;
+              margin: 0 3em;
+        }
 
 	/*=================*/
 	  /*Page 3 Image*/
