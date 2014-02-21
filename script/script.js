@@ -6,8 +6,8 @@ $(document).ready(function(){
     // Hide all the DIVs, and show just the one we want
  		// $(this).find('i').toggleClass('fa-chevron-circle-up');
 	  //  	$(this).find('i').toggleClass('fa-chevron-circle-down');
-        $ ('#ulsocial, #education, #interests').hide(1000);
-        $("#experience").slideToggle(500);
+        $ ('#ulsocial, #education, #interests').hide(10);
+        $("#experience").toggle(10);
     });
 
 
@@ -15,16 +15,16 @@ $(document).ready(function(){
     // Hide all the DIVs, and show just the one we want
     // 	$(this).find('i').toggleClass('fa-chevron-circle-down');
 	  	// $(this).find('i').toggleClass('fa-chevron-circle-up');
-        $ ('#experience, #ulsocial, #interests').hide(1000);
-        $("#education").slideToggle(500);
+        $ ('#experience, #ulsocial, #interests').hide(10);
+        $("#education").toggle(10);
     });
 
     $('#intheadtitle').click(function(){
     // Hide all the DIVs, and show just the one we want
 	  // $(this).find('i').toggleClass('fa-chevron-circle-down');
 	  // $(this).find('i').toggleClass('fa-chevron-circle-up');
-        $ ('#experience, #education, #ulsocial').hide(1000);
-        $("#interests").slideToggle(500);
+        $ ('#experience, #education, #ulsocial').hide(10);
+        $("#interests").toggle(10);
     });
 
     $('#expheadtitle, #eduheadtitle, #intheadtitle').click(function(){

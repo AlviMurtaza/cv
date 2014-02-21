@@ -216,6 +216,16 @@
       color: #FFF;
       }
 
+      #experience, #education {
+        margin-top: 4em;
+        line-height: 1.5;
+        }
+
+        #interests {
+          margin-top: 6em;
+          line-height: 2;
+        }
+
     .main section.page3 {
       background:url(../images/page3-back.png) no-repeat;
       background-size: cover;
